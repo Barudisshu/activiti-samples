@@ -1,0 +1,8 @@
+package net.activiti.chapter2.model;
+
+rule "Test Rule"
+    when
+        Person(name == "Barudisshu")
+    then
+        System.out.println("Welcome to Drools!");
+end
